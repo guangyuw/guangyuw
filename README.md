@@ -6,9 +6,8 @@
 </p>
 
 <p align="center">
-  <a href="mailto:YOUR_EMAIL@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://YOUR_WEBSITE.com"><img src="https://img.shields.io/badge/Website-000000?style=flat&logo=aboutdotme&logoColor=white" alt="Website"/></a>
+  <a href="mailto:zjugeo@outlook.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/guangyu-wang-data/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 </p>
 
 ---
@@ -18,7 +17,7 @@
 - 🔭 Focused on turning messy, real-world data into decisions — from **45.8M raw transaction logs** to a **targeting policy**, and from **13K bug reports** to a **calibrated LLM evaluation**.
 - 🧪 I care about doing things *correctly*: proper experiment hygiene (SRM, SMD), variance reduction (CUPED), and evaluation grounded in **human labels** (Cohen's κ) rather than vibes.
 - 🛠️ Comfortable across the stack: data engineering (SQL/DuckDB), classical ML, causal inference/uplift, and LLM/agent systems (LangGraph, MCP, RAG).
-- 📫 Reach me at **YOUR_EMAIL@example.com**.
+- 📫 Reach me at **zjugeo@outlook.com**.
 
 ### 🚀 Featured projects
 
