@@ -34,6 +34,12 @@
 - Engineered a **multi-agent LLM extraction pipeline** (retrieve context → extract → self-critique → retry) to improve field-extraction yield.
 - Calibrated an **LLM-as-judge** evaluator against human labels with **Cohen's κ**, and validated embedding clusters against ground-truth duplicate pairs.
 
+**[marketplace-risk-ml](https://github.com/guangyuw/marketplace-risk-ml)** — *marketplace risk scoring → MLflow → serving*
+
+- Built an end-to-end risk pipeline with **temporal 60/20/20 split**, **XGBoost + Platt calibration**, and a business **false-clearance threshold**; tracked runs in **MLflow** with **git-commit** tags for model versioning.
+- Deployed online scoring via **FastAPI + Docker** (calibrated bundle + routing); implemented **PSI** drift checks and audit sampling for post-deploy monitoring.
+- Authored **Snowflake** point-in-time feature SQL; ran training on **Databricks** Serverless, registered the model to **Unity Catalog**, and exercised **Model Serving**.
+
 ### 🧰 Tech I reach for
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -50,6 +56,12 @@
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat&logo=xgboost&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
 
 <p align="center"><i>A/B testing · difference-in-differences · CUPED · uplift / CATE · RAG · MCP · LLM-as-judge · vector search (hit@k / MRR)</i></p>
 
